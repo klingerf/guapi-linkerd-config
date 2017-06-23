@@ -2,5 +2,16 @@
   "display": "Linkerd",
   "name": "linkerd",
   "settings": [],
-  "tabs": []
+  "tabs": [
+    {
+      "name": "::linkerd",
+      "baseUrl": "http://localhost:9000",
+      "tabs": [
+        {
+          "name": "::health",
+          "path": "/health"
+        }
+      ]
+    }
+  ]
 }
