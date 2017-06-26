@@ -1,0 +1,19 @@
+{
+  "name": "guapi-linkerd-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creasetoph/guapi-linkerd-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creasetoph/guapi-linkerd-config/issues"
+  },
+  "homepage": "https://github.com/creasetoph/guapi-linkerd-config#readme"
+}

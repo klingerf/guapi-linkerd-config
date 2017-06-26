@@ -9,7 +9,18 @@
       "tabs": [
         {
           "name": "::health",
-          "path": "/health"
+          "path": "/health",
+          "location": "query",
+          "method": "GET"
+        },
+        {
+          "name": "::shift",
+          "path": "/shift/{{amount}}",
+          "location": "query",
+          "method": "PUT",
+          "fields": [
+            "::amount"
+          ]
         }
       ]
     }
